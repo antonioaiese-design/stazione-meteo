@@ -1,3 +1,4 @@
+pip install pandas matplotlib
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
@@ -150,4 +151,5 @@ if __name__ == '__main__':
         # 3. ANALISI MENSILE (Frequenza 'M')
         # L'aggregazione mensile prende i dati giornalieri aggregati come input
         # Se si esegue direttamente sui dati a 15 minuti, l'aggregazione è corretta
+
         plot_data(data_15min, 'M', 'Andamento Mensile')
